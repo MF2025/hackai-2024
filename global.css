@@ -6,5 +6,5 @@
 @font-face {
   font-family: "";
   src: local("placard"),
-    url("./public/fonts/PlacardNext/PlacardNextRegular.ttf") format("truetype");
+    url("./public/fonts/PlacardNext/PlacardNextRegular.TTF") format("truetype");
 }

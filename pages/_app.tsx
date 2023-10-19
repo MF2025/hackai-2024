@@ -34,7 +34,7 @@ const campground = localFont({
 const placard = localFont({
   src: [
     {
-      path: "../public/fonts/PlacardNext/PlacardNextRegular.ttf"
+      path: "../public/fonts/PlacardNext/PlacardNextRegular.TTF"
     }
   ]
 });
