@@ -30,15 +30,6 @@ const campground = localFont({
     }
   ]
 })
-
-const placard = localFont({
-  src: [
-    {
-      path: "../public/fonts/PlacardNext/PlacardNextRegular.ttf"
-    }
-  ]
-});
-
 export default function MyApp({ Component, pageProps }: AppProps) {
   
   return (
@@ -54,8 +45,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           /* ... */
           --lucidity: ${lucidity.style.fontFamily};
           --cooper: ${cooper.style.fontFamily};
-          --campground: ${campground.style.fontFamily};
-          --placard: ${placard.style.fontFamily};
+          --campground: ${campground.style.fontFamily}
         }
       `}</style>
       <Component {...pageProps} />
